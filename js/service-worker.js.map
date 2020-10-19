@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/service-worker.js"],"names":["console","log"],"mappings":";AAAAA,QAAQC,IAAI","file":"service-worker.js","sourceRoot":"..\\src","sourcesContent":["console.log('Hello from service-worker.js');"]}
