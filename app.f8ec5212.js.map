@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/app.js"],"names":["alert","Date","getTime"],"mappings":";AAAAA,OAAM,IAAIC,MAAOC","file":"app.f8ec5212.js","sourceRoot":"..\\src","sourcesContent":["alert(new Date().getTime());"]}
