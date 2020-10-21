@@ -15,7 +15,9 @@
     <script src="app.a7853f01.js"></script>
     <script>if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register("service-worker.js");
+    navigator.serviceWorker.register("service-worker.js", {
+      scope: '/candy-dispenser'
+    });
   });
 }</script>
 </body>
