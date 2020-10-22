@@ -892,8 +892,9 @@ camelcase-keys@4.2.0 [license(s): MIT]
 ├── license files: MIT
 └── readme files: MIT
 
-candy-dispenser-trigger@1.0.0 [license(s): MIT]
-└── package.json:  MIT
+candy-dispenser-trigger@1.0.0 [license(s): BSD, GPL, ISC, MIT, Public Domain, WTFPL]
+├── package.json:  MIT
+└── license files: BSD, GPL, ISC, MIT, Public Domain, WTFPL
 
 caniuse-api@3.0.0 [license(s): MIT]
 ├── package.json:  MIT
