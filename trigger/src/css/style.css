@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import 'bulma';
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+a { color: white; }
+
+::-webkit-scrollbar { display: none; }
+
+.cd-panels {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.cd-panel-content > * { margin-bottom: 30px; }
+
+h1 { font-size: 28px; }
+h1::before { content: "> "; }
+
+p { font-size: 18px; }
+
+.cd-splitter {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cd-input {
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    color: inherit;
+    font: inherit;
+    padding: 8px;
+    width: fit-content;
+}
+
+.cd-button {
+    padding: 8px;
+    border: 2px solid white;
+    width: fit-content;
+}
+
+.cd-logs::before {
+    content: "state: ";
+}
+
+.cd-licenses {
+    font-size: 13px;
+}
+
+.cd-navbar {
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    z-index: 100;
+}
+
+.cd-navbar-item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cd-navbar-item-icon {
+    width: 60px;
+}
