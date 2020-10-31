@@ -1,0 +1,10 @@
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\bin\Debug\Candy Dispenser Trigger.dll
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\bin\Debug\Candy Dispenser Trigger.pdb
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.csprojAssemblyReference.cache
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.AssemblyInfoInputs.cache
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.AssemblyInfo.cs
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.csproj.CoreCompileInputs.cache
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.dll
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.pdb
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\bin\Debug\websocket-sharp.dll
+C:\Users\henry\candy-dispenser\trigger-native\.mono\temp\obj\Debug\Candy Dispenser Trigger.csproj.CopyComplete

@@ -1,0 +1,12 @@
+<Project Sdk="Godot.NET.Sdk/3.2.3">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>tinkertoe.CandyDispenser.Trigger</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="WebSocketSharp" Version="1.0.3-rc11"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Speech" />
+  </ItemGroup>
+</Project>

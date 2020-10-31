@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tMd8lLxSlABDitatpTv3Nz+2DmhQtKft32EXfvegOKli1Z5ggeSSIPL/e7sm2R6pmHaNdQ1l18ONv98B1OgYOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\henry\\candy-dispenser\\trigger-native\\Candy Dispenser Trigger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\henry\\.nuget\\packages\\websocketsharp\\1.0.3-rc11\\websocketsharp.1.0.3-rc11.nupkg.sha512"
+  ],
+  "logs": []
+}

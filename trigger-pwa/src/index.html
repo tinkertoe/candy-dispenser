@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>Candy Dispenser</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onselectstart="return false;">
+
+    <div class="cd-panels" id="panel">
+
+        <div class="cd-panel" id="homePanel">
+            <h1>candy dispenser</h1>
+            <div class="cd-splitter"></div>
+            
+            <div class="cd-panel-content">
+                <p><i>select a page down below..</i></p>
+                <a href="licenses.txt" class="cd-licenses">view third-party licenses</a>
+            </div>
+        </div>
+
+        <div class="cd-panel" id="connectionPanel">
+            <h1>connection</h1>
+            <div class="cd-splitter"></div>
+
+            <div class="cd-panel-content">
+                <div>
+                    <div>websocket address</div>
+                    <input type="text" class="cd-setting cd-input" id="webSocketAddress" placeholder="ws://192.168.2.4:7351">
+                </div>
+
+                <div class="cd-button" id="webSocketConnect">connect</div>
+
+                <div class="cd-state" id="webSocketState"></div>
+            </div>
+        </div>
+
+        <div class="cd-panel" id="speechPanel">
+            <h1>speech</h1>
+            <div class="cd-splitter"></div>
+
+            <div class="cd-panel-content">
+
+                <div>
+                    <div>language</div>
+                    <input type="text" class="cd-setting cd-input" id="speechLanguage" placeholder="en-US">
+                </div>
+
+                <div>
+                    <div>phrase</div>
+                    <input type="text" class="cd-setting cd-input" id="speechPhrase" placeholder="trick or treat">
+                </div>
+
+                <div class="cd-button" id="speechListen">listen</div>
+
+                <div class="cd-result" id="speechResult">Results will be displayed here</div>
+
+            </div>
+        </div>
+
+        <div class="cd-panel" id="dispensePanel">
+            <h1>dispense</h1>
+
+            <div class="cd-splitter"></div>
+
+            <div class="cd-panel-content">
+                <div class="cd-button" id="dispenseButton">dispense</div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    
+    <div class="cd-navbar">
+        <div class="cd-navbar-item" id="connectionTrigger">
+            <img src="img/navbar/connection.svg" class="navbar-item-icon">
+            <div class="cd-navbar-item-label">connection</div>
+        </div>
+        <div class="cd-navbar-item" id="speechTrigger">
+            <img src="img/navbar/speech.svg" class="navbar-item-icon">
+            <div class="cd-navbar-item-label">speech</div>
+        </div>
+        <div class="cd-navbar-item" id="dispenseTrigger">
+            <img src="img/navbar/dispense.svg" class="navbar-item-icon">
+            <div class="cd-navbar-item-label">dispense</div>
+        </div>
+    </div>
+
+    <script src="js/App.ts"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js', { scope: '/candy-dispenser/'});
+            });
+        }
+    </script>
+</body>
+</html>
